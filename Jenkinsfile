@@ -8,11 +8,4 @@ pipeline {
          }
       }
    }
-   
-   stage('code compile') {
-         steps {
-            sh 'echo compiling the code'
-         }
-      }
-   }
 }
